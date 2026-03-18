@@ -78,7 +78,7 @@ const App = () => {
             if (!me) return;
             setLoadingRoute(true);
             try {
-                const res = await axios.post('https://where-to-dliver-app.onrender.com/api/locations/route', {
+                const res = await axios.post('https://tracknow-a6qj.onrender.com/api/locations/route', {
                     start: { lat: me.lat, lng: me.lng },
                     end: { lat: selectedUser.lat, lng: selectedUser.lng }
                 });

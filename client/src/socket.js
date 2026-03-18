@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const socket = io("https://where-to-dliver-app.onrender.com");
+const socket = io("https://tracknow-a6qj.onrender.com");
 
 export const joinRoom = (roomId) => {
     socket.emit("join-room", roomId);
