@@ -10,7 +10,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-  origin: "https://where-to-dliver.vercel.app", // allow your frontend origin
+  origin: "https://track-now-kappa.vercel.app", // allow your frontend origin
   credentials: true
 }));
 
@@ -18,7 +18,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://where-to-dliver.vercel.app", // allow your frontend origin
+    origin: "https://track-now-kappa.vercel.app", // allow your frontend origin
     methods: ["GET", "POST"],
     credentials: true
   }
