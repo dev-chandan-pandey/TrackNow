@@ -149,23 +149,7 @@ const App = () => {
                     </div>
                 </main>
 
-                {/* YouTube CTA Section */}
-                <section id="tutorial" className="bg-white py-12 px-6 text-center shadow-inner">
-                    <div className="max-w-3xl mx-auto">
-                        <h3 className="text-3xl font-bold mb-4">Want to Learn How It Works?</h3>
-                        <p className="text-gray-600 mb-6">
-                            Watch our full YouTube tutorial on building this feature in food delivery and logistics apps.
-                        </p>
-                        <a
-                            href="https://www.youtube.com/@slr_tech"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg transition"
-                        >
-                            📺 Watch on YouTube
-                        </a>
-                    </div>
-                </section>
+              
 
                 {/* Footer */}
                 <footer className="w-full bg-gray-900 text-white py-8 px-6 mt-12">
